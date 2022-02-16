@@ -1,0 +1,23 @@
+{
+  "name": "medic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "postinstall": "install-app-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "electron": "^16.0.8",
+    "express": "^4.17.2",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.14.13"
+  }
+}

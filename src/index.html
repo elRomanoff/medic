@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form action="" class="form">
+            <h1>Medicef</h1>
+            <h2>Agregar Paciente</h2>
+            <div class="inputs" id="inputs">
+                <input type="text" id="nombre" placeholder="nombre">
+                <input type="text" id="apellido" placeholder="apellido">
+                <input type="number" id="dni" placeholder="dni">
+                <input type="text" id="obrasocial" placeholder="obrasocial">
+                <input type="text" id="carnet" placeholder="carnet">
+
+                <button type="submit" id="submit"></button>
+            </div>
+        
+        </form>
+
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>DNI</th>
+                    <th>Obra Social</th>
+                    <th>Carnet</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <tr>
+                    <td>Hugo</td>
+                    <td>Chavez</td>
+                    <td>14594623</td>
+                    <td>xxxxxxxx</td>
+                    <td>36486334123</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
