@@ -1,7 +1,8 @@
 html,
 body {
-	height: 100%;
+	height: 130%;
     box-sizing: border-box;
+	color: white;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 }
 
 .container {
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -22,20 +23,37 @@ body {
 .form{
 	width: 780px;
 	background-color: rgba(200,200,200,0.3);
-	color: white;
 	margin-bottom: 20px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+.form-submit{
+	display:flex;
+	justify-content: space-around;
+}
+
+
 .inputs{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
 .inputs input{
-	margin-bottom: 20px
+	margin-bottom: 20px;
+	height: 20px;
+	width: 140px
+}
+.inputs textarea{
+	width: 200px
+}
+
+.icon{
+	width:25px;
+	height:25px;
+	margin: 0 10px
 }
 
 table {
@@ -47,14 +65,15 @@ table {
 	box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-th,
+
 td {
-	padding: 15px 0;
+	padding: 10px 0;
 	background-color: rgba(255,255,255,0.2);
 	color: #fff;
 }
 
 th {
+	padding: 10px 0;
 	text-align: left;
 }
 
@@ -62,10 +81,53 @@ thead th {
 		background-color: #55608f;
 	}
 
-tbody tr:hover {
-			background-color: rgba(255,255,255,0.3);
+.tr:hover{
+			background-color: rgba(0,0,0,0.3);
 		}
-tbody tr td {
-		position: relative;
+
+td:first-child{
+	display: flex;
+	flex-direction: column;
 }
 
+
+td input{
+	width:90%
+}
+
+
+.message-container{
+	width: 100%;
+	background: #113377;
+}
+
+.message{
+	padding: 10px 15px;
+	flex-grow: 5;
+}
+
+.message-close{
+	font-size: 20px;
+	text-align: center;
+}
+.message-close:hover{
+	background:#5393a2;
+}
+
+button{
+	min-width: 25px;
+	min-height: 16px;
+}
+
+.hidden{
+	display: none;
+}
+.bigger{
+	height: 60px
+}
+
+a{
+	font-size: 25px;
+	margin: 10px;
+	cursor: pointer;
+}
