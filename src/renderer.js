@@ -2,7 +2,7 @@
 let direccion = "http://localhost:3000/"
 
 //modulos
-import reset from "./reset.js";
+import {reset} from "./reset.js";
 
 //tabla obras sociales
 const arrObrasSociales = [];
